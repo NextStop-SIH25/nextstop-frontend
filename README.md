@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# NextStop
 
-## Project info
+![NextStop Logo](./src/assets/LOGO%202.svg)
 
-**URL**: https://lovable.dev/projects/ca8bb1eb-390c-4bb5-90c8-7b69fcdd5660
+**Real-time Bus Tracking for Tier-2 Cities**
 
-## How can I edit this code?
+> *"Catch Your Bus, Not the Wait"*
 
-There are several ways of editing your application.
+NextStop is a web and mobile-first platform that provides real-time bus tracking for commuters in small and tier-2 cities. It solves the problem of unpredictable bus schedules by showing live bus locations, estimated arrival times, and routes.
 
-**Use Lovable**
+This project is being developed as part of **Smart India Hackathon 2025 (SIH)**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ca8bb1eb-390c-4bb5-90c8-7b69fcdd5660) and start prompting.
+## 🌟 Features (MVP)
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🔑 **User Authentication** – Login, Signup, OTP Verification, Forgot Password
+- 🚌 **Real-time Bus Tracking** – View bus positions on a live map (future module)
+- ⏱️ **ETA (Estimated Time of Arrival)** – Get bus arrival predictions
+- 🗺️ **Route Information** – See available routes and stops
+- 📱 **Mobile-first UI** – Optimized for low bandwidth and small screens
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd NextStop-frontend
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-**Use GitHub Codespaces**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠️ Tech Stack
 
-## What technologies are used for this project?
+- **Frontend**: React + TypeScript + Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Build Tool**: Vite
 
-This project is built with:
+## 👥 Team – NextStop
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vedant Kulkarni** – Frontend & UI
+- *[Add other members]* – *Roles (Backend, DB, Docs, etc.)*
 
-## How can I deploy this project?
+## 📌 Roadmap
 
-Simply open [Lovable](https://lovable.dev/projects/ca8bb1eb-390c-4bb5-90c8-7b69fcdd5660) and click on Share -> Publish.
+- ✅ **Authentication** (Login, Signup, OTP, Forgot Password)
+- 🔄 **Bus route + schedule integration**
+- 🗺️ **Live GPS tracking**
+- 📊 **ETA prediction system**
+- 🌍 **Multi-language support**
 
-## Can I connect a custom domain to my Lovable project?
+## 📱 Screenshots
 
-Yes, you can!
+*Screenshots will be added as the project progresses*
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is part of Smart India Hackathon 2025. For contributions, please follow the standard GitHub workflow:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+
+
+## 📞 Contact
+
+For any questions or support, please reach out to the team members or create an issue in this repository.
+
+---
+
